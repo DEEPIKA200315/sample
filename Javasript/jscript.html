@@ -1,0 +1,50 @@
+<head>
+    <title>js</title>
+</head>
+
+<body onload="page()">
+    <h1>onchange</h1>
+    <label for="email">Email: &nbsp;</label>
+    <input type="email" id="email" onchange="change()">
+    <br><br>
+
+    <h1>onclick</h1>
+    <button onclick="Click()">Click </button>
+
+    <h1>onkeydown</h1>
+    <br>
+    <label>Feedback: &nbsp;</label>
+    <input type="text" onkeydown="onkd()">
+
+
+
+    <script>
+        // onload
+         function page() {
+            alert("page is loading");
+        }
+
+        // onchange
+
+        function change() {
+           alert("Your Email has been changed");
+        }
+        
+        // onclick
+
+        function Click(){
+            alert("Welcome to the page");
+        }
+
+        // onmouseover
+
+        function event(){
+            style.size="30px";
+        }
+
+        // onkeydown
+        function onkd(){
+            alert("Finish")
+        }
+
+    </script>
